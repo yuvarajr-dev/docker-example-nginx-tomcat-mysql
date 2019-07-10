@@ -19,7 +19,7 @@ tomcat_1_node_1:
     JDBC_URL: jdbc:mysql://db:3306/example_db?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true
     JDBC_USER: example_db_user
     JDBC_PASS: example_db_pass
-#  volumes:
+  volumes:
     - "./tomcat/webapps :/usr/local/tomcat/webapps"
   links:
     - db
@@ -33,7 +33,7 @@ tomcat_1_node_2:
     JDBC_URL: jdbc:mysql://db:3306/example_db?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true
     JDBC_USER: example_db_user
     JDBC_PASS: example_db_pass
-#  volumes:
+  volumes:
     - "./tomcat/webapps :/usr/local/tomcat/webapps"
   links:
     - db
@@ -47,7 +47,7 @@ tomcat_2_node_1:
     JDBC_URL: jdbc:mysql://db:3306/example_db?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true
     JDBC_USER: example_db_user
     JDBC_PASS: example_db_pass
-#  volumes:
+  volumes:
     - "./tomcat/webapps :/usr/local/tomcat/webapps"
   links:
     - db
