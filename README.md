@@ -1,4 +1,4 @@
-# dmulligan/docker-example-nginx-tomcat-mysql
+# yuvarajr-dev/docker-example-nginx-tomcat-mysql
 
 A docker compose project with a MySQL, three Tomcat and an nginx container all linked together.
 
