@@ -20,7 +20,7 @@ tomcat_1_node_1:
     JDBC_USER: example_db_user
     JDBC_PASS: example_db_pass
   volumes:
-    - ./tomcat/webapps :/usr/local/tomcat/webapps
+    - ./tomcat/webapps:/usr/local/tomcat/webapps
   links:
     - db
 
@@ -34,7 +34,7 @@ tomcat_1_node_2:
     JDBC_USER: example_db_user
     JDBC_PASS: example_db_pass
   volumes:
-    - ./tomcat/webapps :/usr/local/tomcat/webapps
+    - ./tomcat/webapps:/usr/local/tomcat/webapps
   links:
     - db
 
@@ -48,7 +48,7 @@ tomcat_2_node_1:
     JDBC_USER: example_db_user
     JDBC_PASS: example_db_pass
   volumes:
-    - /tomcat/webapps :/usr/local/tomcat/webapps
+    - /tomcat/webapps:/usr/local/tomcat/webapps
   links:
     - db
 
